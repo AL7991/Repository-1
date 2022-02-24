@@ -40,13 +40,6 @@ public class LevelHard {
 		
 		int attemptsNumber = 0;
 		
-		System.out.println("y gracz " + yPlayerPosition);
-		System.out.println("x gracz " + xPlayerPosition);
-
-		
-		System.out.println("x " + xTreasurePosition);
-		System.out.println("y " + yTreasurePosition);
-		
 		while (xTreasurePosition != xPlayerPosition || yTreasurePosition != yPlayerPosition) {
 		
 		System.out.println("which direction you want to go ? ");
